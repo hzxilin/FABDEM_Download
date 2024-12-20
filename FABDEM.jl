@@ -1,3 +1,9 @@
+using Pkg
+Pkg.add("HTTP")
+Pkg.add("AWSS3")
+Pkg.add("AWS")
+
+
 using HTTP
 using AWSS3
 using AWS
