@@ -3,13 +3,11 @@ Pkg.add("HTTP")
 Pkg.add("AWSS3")
 Pkg.add("AWS")
 
-
 using HTTP
 using AWSS3
 using AWS
 using AWS: @service
 @service S3
-
 
 # Configuration for AWS 
 const AWS_REGION = "us-east-2"  # Replace with your AWS region
